@@ -87,3 +87,25 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 # 📂 Project Structure
 
 ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/54608f2c694b6b78125f9330cd600e5d03665552/Gallery/IMG-20260721-WA0002.jpg)
+
+# 🔒 Authentication Levels
+
+### 🆔 Level 1 – User ID Verification
+- Enter a **4-digit User ID** using the 4×4 Matrix Keypad.
+- LPC2148 verifies the ID stored in EEPROM.
+- ✅ Valid ID → Proceed to Password
+- ❌ Invalid ID → Access Denied
+
+### 🔑 Level 2 – Password Verification
+- Enter a **4-digit Password**.
+- Password is verified with EEPROM.
+- ✅ Correct Password → Proceed to Fingerprint
+- ❌ Incorrect Password → Access Denied
+
+### 👆 Level 3 – Fingerprint Verification
+- Place your finger on the **R305 Fingerprint Sensor**.
+- The fingerprint is matched with the enrolled template.
+- ✅ Match → Door Unlocks
+- ❌ No Match → Access Denied
+
+> **🔐 Access is granted only after successfully passing all three authentication levels.**
