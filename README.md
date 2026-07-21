@@ -84,3 +84,25 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 | 💻 Operating System | Windows 10/11 |
 | 📂 Version Control | Git & GitHub |
 
+# 📂 Project Structure
+
+Secure-Access-Control-System/
+│
+├── main.c
+├── lcd.c
+├── lcd.h
+├── keypad.c
+├── keypad.h
+├── uart.c
+├── uart.h
+├── i2c.c
+├── i2c.h
+├── eeprom.c
+├── eeprom.h
+├── fingerprint.c
+├── fingerprint.h
+├── interrupt.c
+├── interrupt.h
+├── motor.c
+├── motor.h
+└── README.md
