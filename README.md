@@ -1,0 +1,2 @@
+# Secure-Access-Control-System-with-Multi-Level-authentication-
+Security Access Control System with Multi-Level Authentication is a secure solution that verifies users through multiple authentication methods, such as passwords, RFID, OTP, and biometrics. It enhances security, prevents unauthorized access, supports role-based permissions, and maintains access logs for efficient monitoring and management.
