@@ -63,3 +63,24 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 - ⚙️ Demonstrate practical implementation of embedded systems using LPC2148.
 
 - 🌍 Develop a cost-effective solution suitable for homes, offices, and restricted areas.
+
+# 🛠️ Technologies Used
+
+| 🏷️ Category | 🚀 Technology |
+|:-----------:|---------------|
+| 💻 Programming Language | Embedded C |
+| 🖥️ Microcontroller | LPC2148 (ARM7TDMI-S) |
+| 👆 Fingerprint Sensor | R305 |
+| ⌨️ Input Device | 4×4 Matrix Keypad |
+| 📺 Display | 16×2 LCD |
+| 💾 Memory | EEPROM (AT24C256) |
+| ⚙️ Motor Driver | L293D |
+| 🚪 Actuator | DC Motor |
+| 🔄 Communication Protocols | UART, I²C |
+| 🛠️ IDE | Keil uVision |
+| ⚡ Compiler | Keil C Compiler |
+| 🔥 Flashing Software | Flash Magic |
+| 🧪 Debugging Tool | Serial Terminal / Hercules |
+| 💻 Operating System | Windows 10/11 |
+| 📂 Version Control | Git & GitHub |
+
