@@ -110,3 +110,15 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 
 > **🔐 Access is granted only after successfully passing all three authentication levels.**
 
+## 📊 Workflow
+
+![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/87ca8a378f6ea441f29c9907e4b9049345025251/Gallery/file_0000000016d88208ba562234b9fbb825.png)
+
+## 💡 Future Enhancements
+- 📱 Mobile App Integration
+- 🌐 IoT-Based Remote Monitoring
+- ☁️ Cloud Database Support
+- 📷 Face Recognition Authentication
+- 📩 SMS/Email Alerts
+- 🔐 OTP-Based Authentication
+
