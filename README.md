@@ -21,22 +21,43 @@
 
 </p>
 
-## 🛠️ Technologies Used
+## 🛠️ Project Stack
 
-<p align="center">
+<table>
+<tr>
+<td align="center" width="180">
+<b>💻 Embedded System</b><br><br>
+LPC2148
+</td>
 
-<img src="https://img.shields.io/badge/ARM7-LPC2148-007ACC?style=for-the-badge&logo=arm&logoColor=white"/>
-<img src="https://img.shields.io/badge/Language-Embedded%20C-239120?style=for-the-badge&logo=c&logoColor=white"/>
-<img src="https://img.shields.io/badge/Fingerprint-R305-8E44AD?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Interface-4x4%20Keypad-E74C3C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Display-16x2%20LCD-16A085?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Communication-UART-3498DB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Memory-EEPROM-795548?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Interrupts-EINT0%20%7C%20EINT1-9B59B6?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Motor-L293D-F39C12?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Status-Completed-2ECC71?style=for-the-badge"/>
+<td align="center" width="180">
+<b>📝 Language</b><br><br>
+Embedded C
+</td>
 
-</p>
+<td align="center" width="180">
+<b>⏰ RTC</b><br><br>
+Real-Time Clock
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>⌨️ Interface</b><br><br>
+4×4 Keypad
+</td>
+
+<td align="center">
+<b>⚡ Interrupts</b><br><br>
+EINT0 • EINT1
+</td>
+
+<td align="center">
+<b>✅ Status</b><br><br>
+Completed
+</td>
+</tr>
+</table>
 
 Security Access Control System with Multi-Level Authentication is a secure solution that verifies users through multiple authentication methods, such as passwords, RFID, OTP, and biometrics. It enhances security, prevents unauthorized access, supports role-based permissions, and maintains access logs for efficient monitoring and management.
 
