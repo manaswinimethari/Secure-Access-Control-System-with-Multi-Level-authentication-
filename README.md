@@ -1,4 +1,5 @@
 # Secure-Access-Control-System-with-Multi-Level-authentication-
+
 <p align="center">
 
 ![Embedded System](https://img.shields.io/badge/EMBEDDED%20SYSTEM-555555?style=for-the-badge&logoColor=white)
@@ -20,13 +21,6 @@
 ![Completed](https://img.shields.io/badge/COMPLETED-4CAF50?style=for-the-badge)
 
 </p>
-
-![LPC2148](https://img.shields.io/badge/LPC2148-ARM7-blueviolet?style=for-the-badge)
-![Embedded C](https://img.shields.io/badge/Embedded-C-success?style=for-the-badge)
-![RTC](https://img.shields.io/badge/RTC-Real--Time%20Clock-orange?style=for-the-badge)
-![Keypad](https://img.shields.io/badge/4×4-Keypad-red?style=for-the-badge)
-![Interrupts](https://img.shields.io/badge/EINT0%20%7C%20EINT1-Interrupts-purple?style=for-the-badge)
-![Completed](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
 Security Access Control System with Multi-Level Authentication is a secure solution that verifies users through multiple authentication methods, such as passwords, RFID, OTP, and biometrics. It enhances security, prevents unauthorized access, supports role-based permissions, and maintains access logs for efficient monitoring and management.
 
