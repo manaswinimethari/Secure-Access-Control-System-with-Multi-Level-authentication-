@@ -125,3 +125,6 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 - 📩 SMS/Email Alerts
 - 🔐 OTP-Based Authentication
 
+![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/8994f40ecce69d11c180145cb876c07fba3ac75d/Gallery/file_000000000a4c8208ac1f989467254473.png)
+
+![image alt](
