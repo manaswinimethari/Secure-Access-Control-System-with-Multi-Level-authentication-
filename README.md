@@ -128,3 +128,7 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/8994f40ecce69d11c180145cb876c07fba3ac75d/Gallery/file_000000000a4c8208ac1f989467254473.png)
 
 ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/1e95a42ad352b7c12950aca0e3e69c7e7c2b8f55/Gallery/file_00000000113c8211addd96b04e2268f8.png)
+
+![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/841c2bb0a6dcd2e34723462e4ba731f4336853c2/Gallery/IMG-20260731-WA0003.jpg)
+
+![image alt](
