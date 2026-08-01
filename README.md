@@ -137,7 +137,7 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
  
 # 🔐 User Authentication
 
- ![image alt](
+ ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/234e0193bbbd11d37d869b0c5809b5d80c57dd77/Gallery/file_00000000113c8211addd96b04e2268f8.png)
  
 
 # 🔓 Access Granted (Door Opened)
