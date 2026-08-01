@@ -153,4 +153,5 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 
 # ⚙️ Complete Hardware Setup
 
- ![image alt](
+ ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/ff7a4cfb6122d7707ea39fad9b4fc41b58de579c/Gallery/IMG_20260801_094137.png)
+ 
