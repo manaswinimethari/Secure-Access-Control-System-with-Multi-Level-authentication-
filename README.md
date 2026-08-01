@@ -145,7 +145,7 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 
 # 🔒 Automatic Door Re-Locking
  
- 
+  ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/171146e9b331b3431d5eaa79d2fe2b98a9b1b219/Gallery/IMG-20260731-WA0002.jpg)
  
  ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/d3fda2769c929cd5b67acad7376a63c1465a993b/Gallery/IMG-20260731-WA0007.jpg)
 
