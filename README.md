@@ -182,3 +182,21 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 - 🌐 No Remote Access: The basic system does not provide internet-based monitoring or remote control.
 - 🔔 Limited Alert System: Unauthorized attempts may not be reported remotely without additional communication modules.
 - 🔄 Scalability: Additional hardware and software modifications are required for large-scale deployment.
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and distribute this project for educational and development purposes, subject to the terms of the MIT License.
+
+For complete license information, see the `LICENSE` file in this repository.
+
+
+## 👨‍💻 Author
+
+**Methari Manaswini **
+
+🎓 **Electronics and Communication Engineering (ECE)**  
+- 💻 **Embedded Systems **  
+- 🔧 Interested in **Embedded C, Microcontrollers, ARM7 LPC2148, and Embedded Systems Development**
+
