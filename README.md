@@ -155,3 +155,30 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 
  ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/ff7a4cfb6122d7707ea39fad9b4fc41b58de579c/Gallery/IMG_20260801_094137.png)
  
+# ✅ Advantages
+
+- 🔐 Enhanced Security: Provides multiple authentication levels for stronger protection.
+- 👤 Authorized Access Only: Allows entry only after successful user verification.
+- 🔑 Multi-Level Authentication: Uses User ID, Password, and Fingerprint verification.
+- 👆 Biometric Security: Fingerprint authentication reduces the risk of credential misuse.
+- 🚫 Prevents Unauthorized Access: Invalid credentials immediately deny access.
+- 💾 Secure Data Storage: User credentials can be stored in EEPROM for reliable verification.
+- 🖥️ User-Friendly Operation: LCD provides clear instructions and authentication status.
+- 🚪 Automatic Door Control: Automatically opens the door after successful authentication.
+- ⚡ Fast Verification: LPC2148 provides quick processing of authentication steps.
+- 💰 Cost-Effective: Provides strong security using affordable embedded hardware.
+- 🏢 Wide Applications: Suitable for offices, laboratories, banks, institutions, and restricted areas.
+-🔧 Easy to Upgrade: Additional security features can be integrated in the future.
+
+# ⚠️ Limitations
+
+- 👆 Fingerprint Dependency: Fingerprint recognition may fail if the finger is wet, - dirty, or damaged.
+- 🔢 Password Risk: Passwords can be forgotten or exposed to others.
+- 👤 Limited User Capacity: The number of registered users depends on available memory and fingerprint module capacity.
+- ⚡ Power Dependency: The system requires a stable power supply for continuous operation.
+- 🚪 Motor Limitations: Door operation depends on the reliability of the motor and motor driver.
+- 💾 Limited Storage: EEPROM provides limited memory for storing user information.
+- 🔧 Hardware Maintenance: Sensors, keypad, motor, and connections may require periodic maintenance.
+- 🌐 No Remote Access: The basic system does not provide internet-based monitoring or remote control.
+- 🔔 Limited Alert System: Unauthorized attempts may not be reported remotely without additional communication modules.
+- 🔄 Scalability: Additional hardware and software modifications are required for large-scale deployment.
