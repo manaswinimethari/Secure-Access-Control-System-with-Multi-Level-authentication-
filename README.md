@@ -185,18 +185,22 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 
 ## 📜 License
 
-This project is licensed under the **MIT License**.
+This project is intended for educational and academic purposes.
 
-You are free to use, modify, and distribute this project for educational and development purposes, subject to the terms of the MIT License.
-
-For complete license information, see the `LICENSE` file in this repository.
+Feel free to fork, modify, and improve the project.
 
 
 ## 👨‍💻 Author
 
-**Methari Manaswini **
+Methari Manaswini 
 
-🎓 **Electronics and Communication Engineering (ECE)**  
-- 💻 **Embedded Systems **  
-- 🔧 Interested in **Embedded C, Microcontrollers, ARM7 LPC2148, and Embedded Systems Development**
+Bachelor of Technology (Information Technology)
 
+Embedded Systems Engineer
+
+2025 Graduate
+
+# 🙏🏻 Thank you
+Thank you for visiting this project.
+
+⭐ If you find this project useful, consider giving the repository a star!
