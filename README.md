@@ -110,8 +110,11 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/50b38fee0b74d49cb2ac13125dac77ed84984e1c/Gallery/file_0000000023d48230b930fbf5887b8d9a.png)  
 
 > **🔐 Access is granted only after successfully passing all three authentication levels.**
+ 
+## 📊 Block Diagram
 
-## 📊 Workflow
+![image alt](
+## 🌐 Workflow
 
 ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/87ca8a378f6ea441f29c9907e4b9049345025251/Gallery/file_0000000016d88208ba562234b9fbb825.png)
 
