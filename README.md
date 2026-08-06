@@ -200,7 +200,7 @@ Feel free to fork, modify, and improve the project.
 
 Methari Manaswini 
 
-Bachelor of Technology (Information Technology)
+Bachelor of Technology (Electronics and Communication Engineering)
 
 Embedded Systems Engineer
 
