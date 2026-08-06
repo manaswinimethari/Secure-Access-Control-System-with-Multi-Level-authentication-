@@ -24,11 +24,11 @@
 
 Security Access Control System with Multi-Level Authentication is a secure solution that verifies users through multiple authentication methods, such as passwords, RFID, OTP, and biometrics. It enhances security, prevents unauthorized access, supports role-based permissions, and maintains access logs for efficient monitoring and management.
 
-# 📖 overview 
+## 📖 overview 
 
 The Secure Access Control System with Multi-Level Authentication is an embedded security solution developed using the LPC2148 ARM7 Microcontroller. The system provides enhanced protection by verifying users through three authentication levels: User ID, Password, and Fingerprint. Only when all verification stages are successful is access granted. This approach significantly improves security, reliability, and user authentication accuracy compared to conventional single-level access systems.
 
-# ✨ Features
+## ✨ Features
 
 - 🔢 4-Digit User ID Authentication
 - 🔑 Password Authentication using EEPROM
@@ -41,9 +41,7 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 - 🔄 Fingerprint Enroll & Delete
 - 🚪 Automatic Door Control using DC Motor
 
-# 🎯 objectives 
-
-🎯 Objectives
+## 🎯 Objectives
 
 - 🔐 Enhance security through three-level authentication (User ID, Password, and Fingerprint). 
 
@@ -65,7 +63,7 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 
 - 🌍 Develop a cost-effective solution suitable for homes, offices, and restricted areas.
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 | 🏷️ Category | 🚀 Technology |
 |:-----------:|---------------|
@@ -85,11 +83,11 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 | 💻 Operating System | Windows 10/11 |
 | 📂 Version Control | Git & GitHub |
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/54608f2c694b6b78125f9330cd600e5d03665552/Gallery/IMG-20260721-WA0002.jpg)
 
-# 🔒 Authentication Levels
+## 🔒 Authentication Levels
 
 ### 🆔 Level 1 – User ID Verification
 - Enter a **4-digit User ID** using the 4×4 Matrix Keypad.
@@ -125,25 +123,25 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 - 📩 SMS/Email Alerts
 - 🔐 OTP-Based Authentication
 
-# 🖥️ System Startup
+## 🖥️ System Startup
 
 ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/192665f15c4efaf3c8b88ec1634ffbac7370f509/Gallery/IMG_20260801_073312.png)
 
-# 📋 Main Menu
+## 📋 Main Menu
 
 ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/684e6ef3967fa763d0398eaf3ff3881e70ab62cd/Gallery/IMG-20260731-WA0004.jpg)
 
  ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/754857c448b62b633f2b967cb8de11e3f7f40f50/Gallery/IMG-20260731-WA0003.jpg)
  
-# 🔐 User Authentication
+## 🔐 User Authentication
 
  ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/234e0193bbbd11d37d869b0c5809b5d80c57dd77/Gallery/file_00000000113c8211addd96b04e2268f8.png)
  
 
-# 🔓 Access Granted (Door Opened)
+## 🔓 Access Granted (Door Opened)
  ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/84e0bf73a530b460965497e541df5a1af6786679/Gallery/IMG-20260731-WA0003.jpg)
 
-# 🔒 Automatic Door Re-Locking
+## 🔒 Automatic Door Re-Locking
  
   ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/171146e9b331b3431d5eaa79d2fe2b98a9b1b219/Gallery/IMG-20260731-WA0002.jpg)
  
@@ -151,11 +149,15 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 
 
 
-# ⚙️ Complete Hardware Setup
+## ⚙️ Complete Hardware Setup
 
  ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/ff7a4cfb6122d7707ea39fad9b4fc41b58de579c/Gallery/IMG_20260801_094137.png)
- 
-# ✅ Advantages
+
+## ⚙️ Working Principle
+
+The user enters a User ID and password through the keypad. The LPC2148 verifies the credentials using data stored in EEPROM. If valid, the system requests fingerprint authentication. The fingerprint module compares the scanned fingerprint with stored templates. Upon successful verification, the LPC2148 activates the motor driver to unlock the door; otherwise, access is denied.
+
+## ✅ Advantages
 
 - 🔐 Enhanced Security: Provides multiple authentication levels for stronger protection.
 - 👤 Authorized Access Only: Allows entry only after successful user verification.
