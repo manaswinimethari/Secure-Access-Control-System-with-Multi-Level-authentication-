@@ -1,6 +1,6 @@
 ## 🛡️Secure Access Control System with Multi Level authentication
 
-![Embedded System]![Embedded System](https://img.shields.io/badge/EMBEDDED%20SYSTEM-LPC2148-1E88E5?style=for-the-badge)
+![Embedded System](https://img.shields.io/badge/EMBEDDED%20SYSTEM-LPC2148-1E88E5?style=for-the-badge)
 
 ![Language](https://img.shields.io/badge/LANGUAGE-EMBEDDED%20C-43A047?style=for-the-badge)
 
