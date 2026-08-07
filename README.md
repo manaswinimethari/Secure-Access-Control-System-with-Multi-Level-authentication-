@@ -20,6 +20,8 @@
 
 ![Status](https://img.shields.io/badge/STATUS-COMPLETED-4CAF50?style=for-the-badge)
 
+The Secure Access Control System with Multi-Level Authentication is an embedded security solution designed to provide enhanced protection against unauthorized access. The system uses three levels of authentication: User ID verification, password authentication, and fingerprint verification. It is built around the LPC2148 microcontroller, which manages user credentials, biometric authentication, and door control operations.
+
 ## 📖 overview 
 
 The Secure Access Control System with Multi-Level Authentication is an embedded security solution developed using the LPC2148 ARM7 Microcontroller. The system provides enhanced protection by verifying users through three authentication levels: User ID, Password, and Fingerprint. Only when all verification stages are successful is access granted. This approach significantly improves security, reliability, and user authentication accuracy compared to conventional single-level access systems.
