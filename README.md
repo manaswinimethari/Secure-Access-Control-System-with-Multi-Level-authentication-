@@ -1,26 +1,19 @@
 ## 🛡️Secure Access Control System with Multi Level authentication
 
-<p align="center">
+![Embedded System](https://img.shields.io/badge/EMBEDDED%20SYSTEM-LPC2148-2196F3?style=for-the-badge)
+![Language](https://img.shields.io/badge/LANGUAGE-EMBEDDED%20C-4CAF50?style=for-the-badge)
 
-![Embedded System](https://img.shields.io/badge/EMBEDDED%20SYSTEM-555555?style=for-the-badge&logoColor=white)
-![LPC2148](https://img.shields.io/badge/LPC2148-2196F3?style=for-the-badge)
+![Security](https://img.shields.io/badge/SECURITY-MULTI%20LEVEL%20AUTHENTICATION-FF5722?style=for-the-badge)
+![Fingerprint](https://img.shields.io/badge/FINGERPRINT-R305%20MODULE-9C27B0?style=for-the-badge)
 
-![Language](https://img.shields.io/badge/LANGUAGE-555555?style=for-the-badge)
-![Embedded C](https://img.shields.io/badge/EMBEDDED%20C-4CAF50?style=for-the-badge)
+![Storage](https://img.shields.io/badge/STORAGE-AT25C256%20EEPROM-FF9800?style=for-the-badge)
+![Interface](https://img.shields.io/badge/INTERFACE-4X4%20KEYPAD-F44336?style=for-the-badge)
 
-![RTC](https://img.shields.io/badge/RTC-555555?style=for-the-badge)
-![Real Time Clock](https://img.shields.io/badge/REAL%20TIME%20CLOCK-FF9800?style=for-the-badge)
+![Display](https://img.shields.io/badge/DISPLAY-16X2%20LCD-00BCD4?style=for-the-badge)
+![Motor Driver](https://img.shields.io/badge/MOTOR%20DRIVER-L293D-3F51B5?style=for-the-badge)
 
-![Interface](https://img.shields.io/badge/INTERFACE-555555?style=for-the-badge)
-![4x4 Keypad](https://img.shields.io/badge/4x4%20KEYPAD-E53935?style=for-the-badge)
-
-![Interrupts](https://img.shields.io/badge/INTERRUPTS-555555?style=for-the-badge)
-![EINT0 | EINT1](https://img.shields.io/badge/EINT0%20%7C%20EINT1-9C27B0?style=for-the-badge)
-
-![Status](https://img.shields.io/badge/STATUS-555555?style=for-the-badge)
-![Completed](https://img.shields.io/badge/COMPLETED-4CAF50?style=for-the-badge)
-
-</p>
+![Door Control](https://img.shields.io/badge/DOOR%20CONTROL-DC%20MOTOR-009688?style=for-the-badge)
+![Status](https://img.shields.io/badge/STATUS-COMPLETED-4CAF50?style=for-the-badge)
 
 Security Access Control System with Multi-Level Authentication is a secure solution that verifies users through multiple authentication methods, such as passwords, RFID, OTP, and biometrics. It enhances security, prevents unauthorized access, supports role-based permissions, and maintains access logs for efficient monitoring and management.
 
