@@ -139,7 +139,16 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
  ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/84e0bf73a530b460965497e541df5a1af6786679/Gallery/IMG-20260731-WA0003.jpg)
 
 ## 🔒 Automatic Door Re-Locking
- 
+
+- The system automatically starts a timer after successful authentication and door unlocking.
+- A countdown timer is displayed on the LCD screen to indicate the remaining time before the door is locked again.
+- The user can clearly monitor the door access duration through the timer display.
+- Once the predefined time interval expires, the LPC2148 microcontroller activates the motor driver to close and lock the door automatically.
+- The automatic re-locking feature prevents unauthorized access caused by accidentally leaving the door open.
+- LCD messages such as "Door Open", "Closing in 5 Seconds", and "Door Locked" provide real-time status updates.
+- This feature enhances security by ensuring that the door remains unlocked only for a limited period.
+- The timer-based locking mechanism improves reliability and reduces the need for manual door locking.
+- 
   ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/171146e9b331b3431d5eaa79d2fe2b98a9b1b219/Gallery/IMG-20260731-WA0002.jpg)
  
  ![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/d3fda2769c929cd5b67acad7376a63c1465a993b/Gallery/IMG-20260731-WA0007.jpg)
