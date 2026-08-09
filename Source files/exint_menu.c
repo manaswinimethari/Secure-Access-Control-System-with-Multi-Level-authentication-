@@ -11,9 +11,6 @@
 #include "r305.h"
 #include "l293d.h"
 
-#define NEW_ROM      // Enable for fresh EEPROM initialization
-//#define OLD_ROM        // Enable for reading existing EEPROM data
-
 /*---------------------------------------------------------
  * Global Variables
  *---------------------------------------------------------*/
@@ -26,8 +23,6 @@ u8 admin_id, ids = 0;  // Admin ID and total stored IDs
 char pswd1[6], pswd2[6];
 char id1[6], id3[6];
 u32 id;                // Fingerprint/User ID variable
-
-
 /*---------------------------------------------------------
  * Function Name : init_eint2
  * Description   : Configures External Interrupt 2 (EINT2)
@@ -36,7 +31,6 @@ u32 id;                // Fingerprint/User ID variable
 void init_eint2(void)
 {
         /* Configure P0.7 pin as EINT2 pin */
-
         // Clear bit pair 14 & 15 without affecting other bits
         PINSEL0 &= ~((u32)3 << 14);
 
@@ -69,26 +63,7 @@ void init_eint2(void)
  *                 NEW_ROM  -> Clears EEPROM and starts from 0
  *                 OLD_ROM  -> Reads stored ID count
  *---------------------------------------------------------*/
-/*void init_ids(void)
-{
-#ifdef NEW_ROM
 
-        // Fresh EEPROM initialization
-        ids = 0;
-
-        // Store initial ID count into EEPROM address 0x0000
-        i2c_eeprom_write_byte(0x50, 0x0000, ids);
-
-#endif
-
-
-#ifdef OLD_ROM
-
-        // Read previously stored ID count from EEPROM
-        ids = i2c_eeprom_read_byte(0x50, 0x0000);
-
-#endif
-} */
 /*---------------------------------------------------------
  * Function Name : eint2_isr
  * Description   : Interrupt Service Routine for EINT2.
@@ -114,10 +89,6 @@ void eint2_isr(void) __irq
  *---------------------------------------------------------*/
 
 /*
-#define NEW_ROM
-
-#ifdef NEW_ROM
-
 -----------------------------------------------------------
  * Function Name : set_admin_detail
  * Description   : Stores admin ID and password into EEPROM.
@@ -125,82 +96,6 @@ void eint2_isr(void) __irq
  *                 confirmation.
  *-----------------------------------------------------------
 */
-/*void set_admin_detail(void)
-{
-        u8 id;
-        u8 pswd1[5], pswd2[5];
-
-        while(1)
-        {
-                // Clear LCD and ask for Admin ID 
-                cmd_lcd(LCD_CLR);
-
-                cmd_lcd(GOTO_LINE1_POS_0);
-                str_lcd("enter admin ID:");
-
-                cmd_lcd(GOTO_LINE2_POS_0);
-
-                // Read numeric ID from keypad
-                id = read_num();
-
-                //Ask for password 
-                cmd_lcd(LCD_CLR);
-                str_lcd("enter password:");
-
-                // Read password from keypad
-                password_kpm(pswd1);
-
-                // Confirm password 
-                cmd_lcd(LCD_CLR);
-                str_lcd("enter again:");
-
-                password_kpm(pswd2);
-
-                // Compare both passwords 
-                if(strcmp(pswd1, pswd2) != 0)
-                {
-                        // Password mismatch
-                        cmd_lcd(LCD_CLR);
-
-                        str_lcd("wrong entry");
-
-                        cmd_lcd(0xC0);
-                        str_lcd("enter again");
-
-                        delay_ms(500);
-                }
-                else
-                {
-                        // Store Admin ID into EEPROM 
-                        i2c_eeprom_write_byte(0x50, 0x0001, id);
-
-                        // Store Password into EEPROM 
-                        i2c_eeprom_write_page(0x50,
-                                              0x0002,
-                                              pswd1,
-                                              5);
-
-                        // Display success message 
-                        cmd_lcd(LCD_CLR);
-
-                        str_lcd("..admin detail..");
-
-                        cmd_lcd(0xC0);
-                        str_lcd("....saved.....");
-
-                        delay_ms(500);
-
-                        // Update global admin ID
-                        admin_id = id;
-
-                        return;
-                }
-        }
-}
-
-#endif
-*/
-
 
 /*---------------------------------------------------------
  * EEPROM Function References
@@ -288,8 +183,6 @@ ID:
         //id = readnum();
 		id_kpm((s8 *)id1);
 		id=atoi(id1);
-	
-
         // Check whether ID already exists in EEPROM
         if(is_id_in_db(id)==0)
         {
@@ -362,7 +255,6 @@ FP1:
 void login(void)
 {
         // Variable for entered login ID
-//        int l_id;
 		char l_id1[6],r_pass[5];
         // Loop counter variables
         int k;
@@ -424,8 +316,7 @@ void login(void)
         str_lcd("ENTER USER ID:");
 				cmd_lcd(GOTO_LINE2_POS_0);
         // Read ID from keypad
-       // l_id = readnum();
-				if(id_kpm((s8 *)l_id1)==-1)
+       				if(id_kpm((s8 *)l_id1)==-1)
 					return;
         // Check for invalid input
 
@@ -1034,10 +925,7 @@ void finger_edit(void)
 
         // Read ID from keypad
 		id_kpm(f_id1);
-		/*cmd_lcd(0x01);
-		str_lcd(f_id1);
-		delay_ms(2000);*/
-        // Check whether ID exists in database
+		// Check whether ID exists in database
 		found = is_user_id_in_db((char *)f_id1);
         if(found == -1)
         {
@@ -1466,23 +1354,10 @@ void delete_id(void)
 {
         // Variable to store entered ID
         s8 id,id2[5];
-
-        // Variable to store total users
-        //s8 total;
-
-        // Loop counter
-        //s8 i;
-
-        // Buffer to hold one user record
-        //s8 buf[6];
-
         // EEPROM addresses
         s8 found_addr;
-        //u16 next_addr;
-        //u16 last_addr;
-
+       
 ID:
-
         // Clear LCD display
         cmd_lcd(0x01);
 
@@ -1539,91 +1414,7 @@ ID:
                 // Delay for visibility
                 delay_ms(1000);
 
-        // Read total number of users
-       /* total = i2c_eeprom_read_byte(0x50,0x0000);
-
-        // Calculate address of last record
-        last_addr = 0x0001 + ((total-1) * 6);
-
-        // Shift records upward
-        while(found_addr < last_addr)
-        {
-                // Calculate next record address
-                next_addr = found_addr + 6;
-
-                // Read next user record
-                i2c_eeprom_seq_read
-                (
-                        0x50,
-                        next_addr,
-                        buf,
-                        6
-                );
-
-                // Write next record into current location
-                i2c_eeprom_write_page
-                (
-                        0x50,
-                        found_addr,
-                        buf,
-                        6
-                );
-
-                // Move to next record
-                found_addr += 6;
-        }
-
-        // Clear buffer data
-        for(i=0;i<6;i++)
-        {
-                // Fill buffer with empty value
-                buf[i] = 0xFF;
-        }
-
-        // Clear last EEPROM record
-        i2c_eeprom_write_page
-        (
-                0x50,
-                last_addr,
-                buf,
-                6
-        );
-
-        // Check total users count
-        if(total > 0)
-        {
-                // Decrement user count
-                total--;
-
-                // Update total users in EEPROM
-                i2c_eeprom_write_byte
-                (
-                        0x50,
-                        0x0000,
-                        total
-                );
-        }
-
-        // Clear LCD display
-        cmd_lcd(0x01);
-
-        // Move cursor to first line
-        cmd_lcd(0x80);
-
-        // Display success message
-        str_lcd("USER DELETED");
-
-        // Move cursor to second line
-        cmd_lcd(0xC0);
-
-        // Display status
-        str_lcd("SUCCESS");
-
-        // Display custom symbol
-        char_lcd(1);
-
-        // Wait before exit
-        delay_ms(1500);	*/
+       
 }
 /*---------------------------------------------------------
  * Function Name : edit
@@ -1638,8 +1429,6 @@ void edit(void)
 {
         // Variable to store user menu choice
         u8 choice;
-
-
 /*=========================================================
  *                  CHECK DATABASE STATUS
  *=========================================================*/
@@ -1801,12 +1590,7 @@ void menu(void)
                                  * if required before enrollment
                                  */
 
-                                /*
-                                if(check_admin() == 1)
-                                        break;
-                                */
-
-                                // Call enrollment function
+                               // Call enrollment function
                                 enroll_id();
 
                                 break;
