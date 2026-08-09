@@ -55,15 +55,6 @@ void init_eint2(void)
 
         // Falling edge trigger (default EXPOLAR = 0)
 }
-
-
-/*---------------------------------------------------------
- * Function Name : init_ids
- * Description   : Initializes ID count from EEPROM.
- *                 NEW_ROM  -> Clears EEPROM and starts from 0
- *                 OLD_ROM  -> Reads stored ID count
- *---------------------------------------------------------*/
-
 /*---------------------------------------------------------
  * Function Name : eint2_isr
  * Description   : Interrupt Service Routine for EINT2.
@@ -83,20 +74,6 @@ void eint2_isr(void) __irq
         VICVectAddr = 0;
 }
 
-
-/*---------------------------------------------------------
- * Admin Details Storage using EEPROM
- *---------------------------------------------------------*/
-
-/*
------------------------------------------------------------
- * Function Name : set_admin_detail
- * Description   : Stores admin ID and password into EEPROM.
- *                 Password must be entered twice for
- *                 confirmation.
- *-----------------------------------------------------------
-*/
-
 /*---------------------------------------------------------
  * EEPROM Function References
  *---------------------------------------------------------
@@ -115,7 +92,7 @@ void i2c_eeprom_seq_read(u8 SlaveAddr,
 
 ---------------------------------------------------------*/
 /*---------------------------------------------------------
- * Function Name : is_id_in_db
+ * Function Name : is_user_id_in_db
  * Description   : Searches the entered ID in EEPROM database
  * Argument      : id -> ID to search
  * Return Value  :
