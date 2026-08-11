@@ -111,7 +111,7 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
  
 ## 📊 Block Diagram
 
-![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/a4514f0dc09d8a0d8035854205ff176344a85a55/Gallery/file_0000000090a481f8b3f63bc5b0c014ef.png)
+![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/6d1459a41b075224ac7a535f68f1845a86b7cf35/Gallery/IMG-20260811-WA0008.jpg)
 
 ## 🌐 Workflow
 
