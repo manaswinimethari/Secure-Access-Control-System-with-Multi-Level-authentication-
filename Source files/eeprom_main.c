@@ -1,3 +1,4 @@
+//EEPROM data storage testing.write data to EEPROM and read it back.
 #include <lpc21xx.h>       // LPC21xx microcontroller header
 #include "i2c.h"           // I2C driver functions
 #include "i2c_eeprom.h"    // I2C EEPROM functions
