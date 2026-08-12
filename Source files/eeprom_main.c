@@ -4,13 +4,11 @@
 #include "lcd.h"           // LCD driver functions
 #include "delay.h"         // Delay functions
 /* 
- * Array containing 4 user IDs.
- * Each ID contains 4 characters + 1 NULL character.
+ * Array containing 4 user IDs.Each ID contains 4 characters.
  */
 char usr_id[][5] = {"1111","2222","3333","4444"};
 /*
- * Array containing 4 user passwords.
- * Each password contains 4 characters + 1 NULL character.
+ * Array containing 4 user passwords.Each password contains 4 characters.
  */
 char usr_pass[][5] = {"5555","6666","7777","8888"};
 /*
@@ -29,17 +27,6 @@ int main()
     str_lcd("USER ID'S:");
     /*
      * Write all 4 user IDs into EEPROM.
-     *
-     * EEPROM device address = 0x50
-     *
-     * Starting EEPROM address:
-     * User 1 -> 0x0000
-     * User 2 -> 0x0005
-     * User 3 -> 0x000A
-     * User 4 -> 0x000F
-     *
-     * 5 bytes are reserved for each ID,
-     * although only 4 characters are written.
      */
     for(i = 0; i < 4; i++)
     {
@@ -88,12 +75,6 @@ int main()
     str_lcd("USER PASS:");
 	/*
      * Write all 4 user passwords into EEPROM.
-     *
-     * Starting EEPROM address:
-     * Password 1 -> 0x0020
-     * Password 2 -> 0x0025
-     * Password 3 -> 0x002A
-     * Password 4 -> 0x002F
      */
     for(i = 0; i < 4; i++)
     {
