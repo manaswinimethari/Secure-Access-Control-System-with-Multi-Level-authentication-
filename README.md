@@ -101,7 +101,7 @@ The Secure Access Control System with Multi-Level Authentication is an embedded 
 - ✅ Match → Door Unlocks
 - ❌ No Match → Access Denied
   
-![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/50b38fee0b74d49cb2ac13125dac77ed84984e1c/Gallery/file_0000000023d48230b930fbf5887b8d9a.png)  
+![image alt](https://github.com/manaswinimethari/Secure-Access-Control-System-with-Multi-Level-authentication-/blob/cd9a36a811dd32dfb5ec83b8040493b5b8635bd0/Gallery/IMG-20260812-WA0000(2).jpg)  
 
 > **🔐 Access is granted only after successfully passing all three authentication levels.**
  
