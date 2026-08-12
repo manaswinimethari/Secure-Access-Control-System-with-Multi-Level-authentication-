@@ -35,7 +35,7 @@ int main()
 
        init_l293d();                // Initialize motor driver
 	   //i2c_eeprom_write_byte(0x50,0x0070,ids);
-	   ids=i2c_eeprom_read_byte(0x50,0x0070);
+	   ids=i2c_eeprom_read_byte(0x50,0x0070);//reads one byte from EEPROM and stores it in ids.
 
        title();                     // Display first project title
 	   for(i=0;i<4;i++)
